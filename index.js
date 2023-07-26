@@ -15,6 +15,7 @@ app.use((req, res, next) => {
     next()
 })
 
+
 // routes
 app.get('/', (req, res) => {
     res.send('Hello There!!!')
